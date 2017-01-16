@@ -1,0 +1,26 @@
+#####################
+# Custom c snippets #
+#####################
+extends c
+
+#############
+# Functions #
+#############
+
+############
+# Snippets #
+############
+
+# Module Docstring
+snippet docs "customized doc string" b
+/*******************************************************************************
+ * Copyright (C) `date +%Y` by ${2:`!v g:snips_author_name`}.
+ *
+ * This file is part of ${1:Project Name} *
+ *
+ *   ${3:`!v g:snips_default_license`}, see LICENSE for more details.
+ *
+ *   Written by ${2:`!v g:snips_author_name`} <${4:`!v g:snips_email`}>, `date +%B %Y`
+ *******************************************************************************/
+$0
+endsnippet
